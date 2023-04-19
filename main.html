@@ -7,24 +7,79 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table border="2" style="width: 100%; height: 100%;">
-      <table border="2" style="width: 50%;">
-		  <thead>
-			  <th colspan="2">Nested Table 2</th>
-		  </thead>
-		 <thead>
-			 <th>Column 1</th>
-			 <th>Column 2</th>
-		 </thead>
-		  <thead>
-			 <tbody>
-				 <tr>
-					 <td>abc</td>
-					 <td>def</td>
-				 </tr>
-			 </tbody>
-		 </thead>
-	  </table>
+   <table border="2" bordercolor="green">
+        <tr>
+            <td>
+				<table style="margin-top:40px; width:100%;" border="2">
+					<thead>
+						<th colspan="2">Nested table 2</th>
+					</thead>
+					<thead>
+						<th>Column 1</th>
+						<th>Column 2</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>abc</td>
+							<td>def</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+            <td> 
+                <table bo style="width:300px;"">
+                    <tr>
+                        <td>
+							<table border="2" style="width:100%;margin-top:30px; margin-bottom:30px;">
+								<thead>
+									<th>Nested Table 1</th>
+								</thead>
+								<tr>
+									<td colspan="3">
+								<ul>
+									<li>Mr</li>
+									<li>Shubham</li>
+									<li>Upadhyay</li>
+								</ul>		
+									</td>
+								</tr>
+							</table>
+						</td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td> 
+			<table style="margin-top:50px;margin-bottom:20px;"  border="2">
+				<thead>
+					<th colspan="2">Nested table 3</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+					<a href="#">Nested Table</a>
+						</td>
+						<td>Demo Continued</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+            <td> 
+			<table style="margin-top:50px;margin-bottom:20px; width:100%;"  border="2">
+				<thead>
+					<th colspan="2">Nested table 4</th>
+				</thead>
+				<tbody>
+					<tr>
+						
+						<td style="background-color:black; color:white;">HTML</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+        </tr>
     </table>
   </body>
 </html>
