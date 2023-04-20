@@ -7,79 +7,77 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   <table border="2">
-        <tr>
-            <td>
-				<table style="margin-top:40px; width:100%;" border="2">
-					<thead>
-						<th colspan="2">Nested table 2</th>
-					</thead>
-					<thead>
+    <table border="1"  style="width: 100%; height: 100%">
+   <!--    It has 2 rows -->
+
+<!-- 1st row -->
+		<tr>
+			<td>
+        <!-- Nested Table 2 -->
+				<table  border="1" cellspacing="0" align="center">
+					<tr>
+						<th colspan="2">Nested Table 2</th>
+					</tr>
+					<tr>
 						<th>Column 1</th>
 						<th>Column 2</th>
-					</thead>
-					<tbody>
-						<tr>
-							<td>abc</td>
-							<td>def</td>
-						</tr>
-					</tbody>
+					</tr>
+					<tr>
+						<td>abc</td>
+						<td>def</td>
+					</tr>
 				</table>
 			</td>
-            <td> 
-                <table bo style="width:300px;"">
-                    <tr>
-                        <td>
-							<table border="2" style="width:100%;margin-top:30px; margin-bottom:30px;">
-								<thead>
-									<th>Nested Table 1</th>
-								</thead>
-								<tr>
-									<td colspan="3">
-								<ul>
-									<li>Mr</li>
-									<li>Shubham</li>
-									<li>Upadhyay</li>
-								</ul>		
-									</td>
-								</tr>
-							</table>
-						</td>
-                    </tr>
-                    
-                </table>
-            </td>
-        </tr>
-        <tr>
-            <td> 
-			<table style="margin-top:50px;margin-bottom:20px;"  border="2">
-				<thead>
-					<th colspan="2">Nested table 3</th>
-				</thead>
-				<tbody>
+
+			<td>
+				 <!-- Nested Table 1 -->
+				<table border="1" cellspacing="0" align="center">
+					<tr>
+						<th>Nested Table 1</th>
+					</tr>
 					<tr>
 						<td>
-					<a href="#">Nested Table</a>
+							<ul>
+									<li>List item 1</li>
+									<li>List item 2</li>
+									<li>List item 3</li>		
+							</ul>
 						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+			
+
+ <!-- 2nd row -->
+		<tr>
+			<td>
+          <!-- Nested Table 3 -->
+				<table border="1" cellspacing="0" align="center">
+					<tr>
+						<th colspan="2">Nested Table 3</th>
+					</tr>
+					<tr>
+						<td><a href="#">Nested Table</td>
 						<td>Demo Continued</td>
 					</tr>
-				</tbody>
-			</table>
+				</table>
 			</td>
-            <td> 
-			<table style="margin-top:50px;margin-bottom:20px; width:100%;"  border="2">
-				<thead>
-					<th colspan="2">Nested table 4</th>
-				</thead>
-				<tbody>
+
+			<td>
+				 <!-- Nested Table 4 -->
+				<table border="1" cellspacing="0" align="center">
 					<tr>
-						
-						<td style="background-color:black; color:white;">HTML</td>
+						<th>Nested Table 4</th>
 					</tr>
-				</tbody>
-			</table>
+					<tr>
+						<td style="background-color: black; color:white">HTML</td>
+					</tr>
+				</table>
 			</td>
-        </tr>
+			
+		</tr>
+		
     </table>
   </body>
 </html>
